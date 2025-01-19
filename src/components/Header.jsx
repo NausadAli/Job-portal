@@ -15,8 +15,9 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 " aria-label="Top">
         <div className="w-full py-3 flex items-center justify-between border-b border-indigo-500 lg:border-none">
           <div>
+          <Link to="/">
           <img width={140} src={Logo} alt="Logo" />
-
+              </Link>
           </div>
           <div className="flex items-center">
             <div className="hidden ml-10 space-x-8 lg:block">

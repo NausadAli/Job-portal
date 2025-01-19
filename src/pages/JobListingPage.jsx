@@ -43,7 +43,7 @@ export default function JobListingPage() {
       {/* Floating Filter Button for Small Devices */}
       <button
         onClick={toggleSidebar}
-        className="fixed bottom-6 right-6 z-50 bg-indigo-600 text-white p-4 rounded-full shadow-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 md:hidden"
+        className="fixed bottom-6 right-6 z-50 bg-primary text-white p-4 rounded-full shadow-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 md:hidden"
       >
         {isSidebarOpen ? (
           <svg

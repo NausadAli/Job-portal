@@ -7,7 +7,7 @@ export default function ApplicationTracker() {
   return (
     <div className="w-full mt-2">
       <div className="bg-white shadow overflow-hidden sm:rounded-md w-9/12 mx-auto">
-        <ul className="divide-y divide-gray-200 px-10">
+        <ul className="divide-y divide-gray-200 md:px-10 px-3">
           {appliedJobs.map((job) => (
             <li key={job.id}>
               <div className="pt-4 pb-6 sm:px-6">
