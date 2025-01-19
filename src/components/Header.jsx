@@ -80,7 +80,7 @@ export default function Header() {
             <div className="pt-4 pb-3 border-t border-gray-200">
               <Link
                 to="/"
-                className="block px-3 py-2 rounded-md text-base font-medium text-white bg-indigo-500 hover:bg-indigo-600"
+                className="block px-3 py-2 rounded-md text-base font-medium text-white bg-primary hover:bg-indigo-600"
               >
                 Sign in
               </Link>
