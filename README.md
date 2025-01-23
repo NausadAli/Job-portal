@@ -38,24 +38,24 @@ To run JobQuest on your local machine, follow these steps:
 ### Steps
 
 1. Clone the repository:
-   \`\`\`
+   ```
    git clone https://github.com/your-username/jobhunt.git
-   \`\`\`
+   ```
 
 2. Navigate to the project directory:
-   \`\`\`
+   ```
    cd jobhunt
-   \`\`\`
+   ```
 
 3. Install dependencies:
-   \`\`\`
+   ```
    npm install
-   \`\`\`
+   ```
 
 4. Start the development server:
-   \`\`\`
+   ```
    npm run dev
-   \`\`\`
+   ```
 
 5. Open your browser and visit `http://localhost:5173` to view the application.
 
@@ -64,14 +64,14 @@ To run JobQuest on your local machine, follow these steps:
 To build and run the application in production mode:
 
 1. Build the project:
-   \`\`\`
+   ```
    npm run build
-   \`\`\`
+   ```
 
 2. Serve the built files:
-   \`\`\`
+   ```
    npm run serve
-   \`\`\`
+   ```
 
-3. Open your browser and visit `http://localhost:4173` to view the production build.
+3. Open your browser and visit `http://localhost:5173` to view the production build.
 
